@@ -1,0 +1,32 @@
+.cardWrapper {
+  min-height: 100px;
+  border: 1px solid var(--white);
+  background-color: var(--dark-green);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 25px;
+  border-radius: 15px;
+}
+
+.cardWrapper h1,
+h4 {
+  color: var(--white);
+  margin-bottom: 15px;
+}
+
+.cardWrapper span {
+  display: block;
+  color: var(--white);
+  margin-bottom: 5px;
+  letter-spacing: 1px;
+  font-size: 15px;
+}
+
+.cardWrapper img {
+  max-width: 150px;
+  margin-bottom: 15px;
+  background-color: var(--light-green);
+  border-radius: 50%;
+}
